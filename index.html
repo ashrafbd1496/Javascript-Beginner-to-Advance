@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Sumit Sha Tutorial Practice</title>
 </head>
+
 <body>
     <h1>Javascript to show date</h1>
     <p id="showDate"></p>
 
+    <!-- use of onclick event -->
+    <button type="button" onclick="document.getElementById('showDate').innerHTML = Date() ">Click to show date</button>
+    <hr>
 
-        <button type="button" onclick="document.getElementById('showDate').innerHTML = Date() ">Click to show date</button>
+    <!-- Javascript can change html content -->
+    <p id="htmlcontent">Javascript Can change html content</p>
+
+    <button type="button" onclick="document.getElementById('htmlcontent').innerHTML = 'Hello Ashraf' ">Content Change</button>
+    <hr>
+    <h2>JavaScript Can Change HTML Attribute Values</h2>
+    <h6>Click the button to change light color</h6>
+
+
+    <img id="bulboff" src="/assets/img/pic_bulboff.gif" alt="bulb off" width="100px">
+
+    <button type="button" onclick="document.getElementById('bulboff').src='assets/img/pic_bulbon.gif'">Turn on light</button>
+
+    <button type="button" onclick="document.getElementById('bulboff').src='assets/img/pic_bulboff.gif'">Turn off light</button>
+
+    <hr>
+    <h2>JavaScript Can Change HTML Styles(CSS)</h2>
+    <p id="changeStyle">Click the button to change style</p>
+
+    <button type="button" onclick="document.getElementById('changeStyle').style.fontSize='40px'">Change Style</button>
+
+  
+
+
+
 </body>
+
 </html>
