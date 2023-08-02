@@ -2,6 +2,7 @@
 
 ### Notes: 
 __we can print or save the page using window.print();__
+
 *we need to use document.write() for testing purpose only.*
 
 * A good practice is to put spaces around operators ( = + - * / ):
