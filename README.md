@@ -13,9 +13,9 @@ _Fixed values are called Literals._
 2.  All JavaScript identifiers are case sensitive.
 3.  Hyphens are not allowed in JavaScript. They are reserved for subtractions.
 
--JavaScript programmers tend to use camel case that starts with a lowercase letter: firstName, lastName, masterCard, interCity.
+> JavaScript programmers tend to use camel case that starts with a lowercase letter: firstName, lastName, masterCard, interCity.
 
--Code after double slashes // or between /* and */ is treated as a comment.-
+> Code after double slashes // or between /* and */ is treated as a comment.
 
 
     
