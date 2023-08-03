@@ -19,6 +19,10 @@ _Fixed values are called Literals._
 
 > A const variable cannot be reassigned
 
+> JavaScript const variables must be assigned a value when they are declared:
+
+> we can Change the elements of constant array,  can Change the properties of constant object
+
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 
 [Awesome README in Dev.to](https://dev.to/documatic/awesome-readme-examples-for-writing-better-readmes-3eh3)
