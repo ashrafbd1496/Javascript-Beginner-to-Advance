@@ -17,6 +17,8 @@ _Fixed values are called Literals._
 
 > Code after double slashes // or between /* and */ is treated as a comment.
 
+> A const variable cannot be reassigned
+
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 
 [Awesome README in Dev.to](https://dev.to/documatic/awesome-readme-examples-for-writing-better-readmes-3eh3)
