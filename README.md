@@ -1,4 +1,8 @@
 # Sumit Saha Javascript Tutorial Practice
+### To run js program in vs code terminal we can use - command
+```
+node filename.js
+```
 
 ### Notes: 
 __we can print or save the page using window.print();__
@@ -17,6 +21,7 @@ _Fixed values are called Literals._
 
 > Code after double slashes // or between /* and */ is treated as a comment.
 
+<<<<<<< HEAD
 ### When to Use var, let, or const?
 1. Always declare variables
 
@@ -46,6 +51,16 @@ On the other hand, variables declared with let are block-scoped, meaning they ca
 
 
 
+=======
+> A const variable cannot be reassigned
+
+> JavaScript const variables must be assigned a value when they are declared:
+
+> we can Change the elements of constant array,  can Change the properties of constant object
+
+> A callback is a function passed as an argument to another function.This technique allows a function to call another function. A callback function can run after another function has finished.
+
+> avaScript functions are executed in the sequence they are called. Not in the sequence they are defined.
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 

@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="operator.js"></script>
 </head>
 <body>
     <h3>Js Operators</h3>
-    <p id="str-comp"></p>
     <ul>
         <li>Arithmetic Operators: + - * **  % ++ --</li>
         <li>Assignment Operators: = += -= *= /= %= **= <img src="assets/img/JavaScript-Operators.png" alt=""></li>
         <li>Comparison Operators: == === != !== > < >= <= ? </li>
-        <li>Stirng Operators</li>
-        <li>Logical Operators: && || !</li>
+        <li>Shift Assignment Operators <img src="assets/img/Shiflt Assignment operator.png" alt=""></li>
+        <li> <p id="lgc-opt"></p>Logical Operators: && || ! <img src="assets/img/Logical-Asignment-Opertaor.png" alt=""></li>
         <li>Bitwise Operators</li>
         <li>Ternary Operators</li>
         <li>Type Operators: typeof  instanceof</li>
@@ -23,7 +23,8 @@
         let text1= 'A';
         let text2= 'B';
         let result = text1 < text2;
-        document.getElementById('str-comp').innerHTML= 'Is A less than B? '+ result;
+        document.getElementById('lgc-opt').innerHTML= '<b>Is A less than B?</b> '+ result;
+        
     </script>
 </body>
 </html>
