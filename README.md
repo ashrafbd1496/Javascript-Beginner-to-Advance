@@ -47,9 +47,6 @@ On the other hand, variables declared with let are block-scoped, meaning they ca
 
 > If you add a number and a string, the result will be a string!
 
-> 
-
-
 
 =======
 > A const variable cannot be reassigned
@@ -60,7 +57,15 @@ On the other hand, variables declared with let are block-scoped, meaning they ca
 
 > A callback is a function passed as an argument to another function.This technique allows a function to call another function. A callback function can run after another function has finished.
 
-> avaScript functions are executed in the sequence they are called. Not in the sequence they are defined.
+> JavaScript functions are executed in the sequence they are called. Not in the sequence they are defined.
+
+### Here are some other ways to write the callback function (x) => x >= 0:
+```
+function is_positive(x) { return x >= 0; }
+const isPositive = (x) => x >= 0;
+var isPositive = function(x) { return x >= 0; };
+```
+[Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 
