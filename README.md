@@ -65,6 +65,23 @@ function is_positive(x) { return x >= 0; }
 const isPositive = (x) => x >= 0;
 var isPositive = function(x) { return x >= 0; };
 ```
+> ডিরেক্ট অ্যারে কপি করাকে কপি বাই রেফারেন্স বলে, আর স্লাইস ইউজ করে কপি করাকে কপি বাই ভ্যালু বলে। এখানে শুধু ভ্যালু বা আইটেমগুলোই কপি হবে নতুন অ্যারেতে। কিন্তু দুইটা অ্যারে সম্পূর্ন পৃথক পৃথক দুইটা অবজেক্ট
+
+> The Difference Between Arrays and Objects
+In JavaScript, arrays use numbered indexes. In JavaScript, objects use named indexes . Arrays are a special kind of objects, with numbered indexes.
+
+> Create new array line newjsArray = new Array() or newjsArray = [];
+> The typeof operator returns object because a JavaScript array is an object.
+
+> JavaScript does not support associative arrays. We should use objects when we want the element names to be strings (text).We should use arrays when you want the element names to be numbers.
+
+> To recognize an Js Array we can us Array.isArray(); or can use instanceof like- arrayName instanceof Array;
+
+
+
+
+
+
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
