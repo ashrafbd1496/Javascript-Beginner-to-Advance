@@ -64,6 +64,7 @@ function is_positive(x) { return x >= 0; }
 const isPositive = (x) => x >= 0;
 var isPositive = function(x) { return x >= 0; };
 ```
+### Array: 
 > ডিরেক্ট অ্যারে কপি করাকে কপি বাই রেফারেন্স বলে, আর স্লাইস ইউজ করে কপি করাকে কপি বাই ভ্যালু বলে। এখানে শুধু ভ্যালু বা আইটেমগুলোই কপি হবে নতুন অ্যারেতে। কিন্তু দুইটা অ্যারে সম্পূর্ন পৃথক পৃথক দুইটা অবজেক্ট
 
 > The Difference Between Arrays and Objects

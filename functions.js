@@ -84,3 +84,15 @@ function toCelsius(fahrenheit){
     return (5/9) * (fahrenheit-32);
 }
 
+//others
+for(expression){
+    //some code here
+}
+
+do{
+    //some code here
+}
+
+while(expression){
+    //some code here
+}
