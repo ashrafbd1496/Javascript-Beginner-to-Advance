@@ -21,7 +21,6 @@ _Fixed values are called Literals._
 
 > Code after double slashes // or between /* and */ is treated as a comment.
 
-<<<<<<< HEAD
 ### When to Use var, let, or const?
 1. Always declare variables
 
@@ -76,6 +75,17 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 > JavaScript does not support associative arrays. We should use objects when we want the element names to be strings (text).We should use arrays when you want the element names to be numbers.
 
 > To recognize an Js Array we can us Array.isArray(); or can use instanceof like- arrayName instanceof Array;
+
+### Functions
+> we can use variable, string, boolean, array or object as function argument
+
+> Passing by value: In pass-by-value, a copy of the original variable is created and passed to the function. Any changes made to the copy of the variable in the function do not affect the original variable.
+
+> Passing by reference: in pass-by-reference, the address of the original variable is passed to the function. Any changes made to the original variable in the function will also affect the original variable.
+
+> The () operator in JavaScript is called the call operator. It is used to call a function.
+
+
 
 
 
