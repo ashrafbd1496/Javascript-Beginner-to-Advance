@@ -86,7 +86,14 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 
 > The () operator in JavaScript is called the call operator. It is used to call a function.
 
+### Execution context and Stack
+> জাভাস্ক্রিপ্ট এর গ্লোবাল এক্সিকিউশন কন্টেক্সট হচ্ছে ব্রাউজারের window অবজেক্ট। কোনো গ্লোবাল ভ্যারিয়েবল ডিক্লেয়ার করা বা window অবজেক্ট এ অ্যাসাইন করা একই কথা
 
+> হোইস্টিং  এটা জাভাস্ক্রিপ্ট এর ডিফল্ট বিহেভিয়ার , এজন্যে আসলে আমরা চাইলে একটা ফাংশন ডিক্লেয়ার করার আগে সেটাকে কল করতে পারি।
+
+> অটোম্যাটিকালি গ্লোবাল ভ্যারিয়েবল জাভাস্ক্রিপ্ট এর ‘strict mode’ এ কাজ করবে না।
+
+> 
 
 
 
