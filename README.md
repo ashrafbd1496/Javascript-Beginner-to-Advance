@@ -108,6 +108,8 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 
 > The console.dir() function is a method available  developer console for logging an object's properties in a detailed and interactive way
 
+> ফাংশন বানানোর সাথে সাথেই সেটাকে কল করতে চাই সেক্ষেত্রে আমরা ইফি Immediately Invoked Function Expressions (IIFE) টেকনিক ইউজ করতে পারি
+
 > 
 
 
