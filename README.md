@@ -93,11 +93,22 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 
 > অটোম্যাটিকালি গ্লোবাল ভ্যারিয়েবল জাভাস্ক্রিপ্ট এর ‘strict mode’ এ কাজ করবে না।
 
+> JavaScript has 3 types of scope:
+1. Block scope
+2. Function scope
+2. Global scope
+
+> Variables declared inside a { } block cannot be accessed from outside the block. Variables declared with the var keyword can NOT have block scope.Variables declared inside a { } block can be accessed from outside the block.
+
+> Variables created without a declaration keyword (var, let, or const) are always global, even if they are created inside a function.
+
+> A closure is a function having access to the parent scope, even after the parent function has closed.
+
+> alert is used to display messages or information to the user, whereas prompt is used to gather input from the user in the form of text.
+
+> The console.dir() function is a method available  developer console for logging an object's properties in a detailed and interactive way
+
 > 
-
-
-
-
 
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)

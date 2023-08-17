@@ -84,3 +84,19 @@ function aGlobalFunc() {
     } 
     childFunction();
  }
+
+ // Block Scope
+ {
+    let x = 2;
+    console.log('Block scope ' + x);
+ }
+
+//console.log(x); x can not be used here
+
+//Variables declared inside a { } block can be accessed from outside the block.
+{
+    x = 2;
+
+}
+console.log('variable outsite scope '+ 2); //x can be used here
+
