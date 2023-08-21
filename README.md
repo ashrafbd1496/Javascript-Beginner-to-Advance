@@ -1,15 +1,18 @@
 # Sumit Saha Javascript Tutorial Practice
+
 ### To run js program in vs code terminal we can use - command
+
 ```
 node filename.js
 ```
 
-### Notes: 
-__we can print or save the page using window.print();__
+### Notes:
 
-*we need to use document.write() for testing purpose only.*
+**we can print or save the page using window.print();**
 
-* A good practice is to put spaces around operators ( = + - * / ):
+_we need to use document.write() for testing purpose only._
+
+- A good practice is to put spaces around operators ( = + - \* / ):
 
 _Fixed values are called Literals._
 
@@ -19,9 +22,10 @@ _Fixed values are called Literals._
 
 > JavaScript programmers tend to use camel case that starts with a lowercase letter: firstName, lastName, masterCard, interCity.
 
-> Code after double slashes // or between /* and */ is treated as a comment.
+> Code after double slashes // or between /_ and _/ is treated as a comment.
 
 ### When to Use var, let, or const?
+
 1. Always declare variables
 
 2. Always use const if the value should not be changed
@@ -35,9 +39,9 @@ _Fixed values are called Literals._
 ### The difference between var and let is as follows:
 
 > Variables declared with var can be declared inside a scope and accessed from outside of that scope (function or global scope).
-On the other hand, variables declared with let are block-scoped, meaning they can only be accessed within the block (e.g., inside an if statement or loop) in which they are declared and are not accessible from outside of that block.
+> On the other hand, variables declared with let are block-scoped, meaning they can only be accessed within the block (e.g., inside an if statement or loop) in which they are declared and are not accessible from outside of that block.
 
->Var and let both are hoisted but var show undefined and let show work as temporal dead zone.
+> Var and let both are hoisted but var show undefined and let show work as temporal dead zone.
 > let and const have block scope.
 
 > const could not be reassigned. const variables must be assigned a value when they are declared:
@@ -46,29 +50,32 @@ On the other hand, variables declared with let are block-scoped, meaning they ca
 
 > If you add a number and a string, the result will be a string!
 
-
 =======
+
 > A const variable cannot be reassigned
 
 > JavaScript const variables must be assigned a value when they are declared:
 
-> we can Change the elements of constant array,  can Change the properties of constant object
+> we can Change the elements of constant array, can Change the properties of constant object
 
 > A callback is a function passed as an argument to another function.This technique allows a function to call another function. A callback function can run after another function has finished.
 
 > JavaScript functions are executed in the sequence they are called. Not in the sequence they are defined.
 
 ### Here are some other ways to write the callback function (x) => x >= 0:
+
 ```
 function is_positive(x) { return x >= 0; }
 const isPositive = (x) => x >= 0;
 var isPositive = function(x) { return x >= 0; };
 ```
-### Array: 
+
+### Array:
+
 > ডিরেক্ট অ্যারে কপি করাকে কপি বাই রেফারেন্স বলে, আর স্লাইস ইউজ করে কপি করাকে কপি বাই ভ্যালু বলে। এখানে শুধু ভ্যালু বা আইটেমগুলোই কপি হবে নতুন অ্যারেতে। কিন্তু দুইটা অ্যারে সম্পূর্ন পৃথক পৃথক দুইটা অবজেক্ট
 
 > The Difference Between Arrays and Objects
-In JavaScript, arrays use numbered indexes. In JavaScript, objects use named indexes . Arrays are a special kind of objects, with numbered indexes.
+> In JavaScript, arrays use numbered indexes. In JavaScript, objects use named indexes . Arrays are a special kind of objects, with numbered indexes.
 
 > Create new array line newjsArray = new Array() or newjsArray = [];
 > The typeof operator returns object because a JavaScript array is an object.
@@ -78,6 +85,7 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 > To recognize an Js Array we can us Array.isArray(); or can use instanceof like- arrayName instanceof Array;
 
 ### Functions
+
 > we can use variable, string, boolean, array or object as function argument
 
 > Passing by value: In pass-by-value, a copy of the original variable is created and passed to the function. Any changes made to the copy of the variable in the function do not affect the original variable.
@@ -87,16 +95,18 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 > The () operator in JavaScript is called the call operator. It is used to call a function.
 
 ### Execution context and Stack
+
 > জাভাস্ক্রিপ্ট এর গ্লোবাল এক্সিকিউশন কন্টেক্সট হচ্ছে ব্রাউজারের window অবজেক্ট। কোনো গ্লোবাল ভ্যারিয়েবল ডিক্লেয়ার করা বা window অবজেক্ট এ অ্যাসাইন করা একই কথা
 
-> হোইস্টিং  এটা জাভাস্ক্রিপ্ট এর ডিফল্ট বিহেভিয়ার , এজন্যে আসলে আমরা চাইলে একটা ফাংশন ডিক্লেয়ার করার আগে সেটাকে কল করতে পারি।
+> হোইস্টিং এটা জাভাস্ক্রিপ্ট এর ডিফল্ট বিহেভিয়ার , এজন্যে আসলে আমরা চাইলে একটা ফাংশন ডিক্লেয়ার করার আগে সেটাকে কল করতে পারি।
 
 > অটোম্যাটিকালি গ্লোবাল ভ্যারিয়েবল জাভাস্ক্রিপ্ট এর ‘strict mode’ এ কাজ করবে না।
 
 > JavaScript has 3 types of scope:
+
 1. Block scope
 2. Function scope
-2. Global scope
+3. Global scope
 
 > Variables declared inside a { } block cannot be accessed from outside the block. Variables declared with the var keyword can NOT have block scope.Variables declared inside a { } block can be accessed from outside the block.
 
@@ -106,12 +116,17 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 
 > alert is used to display messages or information to the user, whereas prompt is used to gather input from the user in the form of text.
 
-> The console.dir() function is a method available  developer console for logging an object's properties in a detailed and interactive way
+> The console.dir() function is a method available developer console for logging an object's properties in a detailed and interactive way
 
 > ফাংশন বানানোর সাথে সাথেই সেটাকে কল করতে চাই সেক্ষেত্রে আমরা ইফি Immediately Invoked Function Expressions (IIFE) টেকনিক ইউজ করতে পারি
 
-> 
+### Stack Learner
 
+> constructor name fist letter must be capital
+> Prototype হইলো অবজেক্ট এর parent, তার যতগুলো অবজেক্ট তৈরি করা হবে, সবাই এই prototype এর প্রপার্টি পাবে। স্বভাব চরিত্র parent এর মত হবে আর কি।
+> এখন যদি এমন হয় ধরেন একটা অবজেক্ট এ একটা ফাংশন ৫০০ বার ডাকা লাগছে, কিন্তু ফাংশনের কোন পরিবর্তন দরকার হয়নি, তো আমার ৫০০ বার কল করা টা বোকামি, শুধু শুধু রিসোর্সেস নষ্ট। তার চাইতে prototype এর কাছে ফাংশন টা রেখে আসতে হবে। যেহেতু সবগুলোর prototype একই, তো এই ফাংশন এক ডাকে পাওয়া যাবে।
+
+> Functons are special type of object in javascript which is executable.
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
@@ -122,11 +137,3 @@ In JavaScript, arrays use numbered indexes. In JavaScript, objects use named ind
 [Readme Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
 
 [Make Readme](https://www.makeareadme.com/)
-
-
-
-
-
-
-
-    

@@ -1,0 +1,21 @@
+// Constructor pattern
+
+//constructor has no need comma,
+var Rectangle = function (width, height) {
+  this.width = width;
+  this.heigt = height;
+
+  this.draw = function () {
+    console.log("I am a rectangle");
+    this.printProperties();
+    console.log(this);
+  };
+
+  this.printProperties = function () {
+    console.log("My width is " + this.width);
+    console.log("My height is " + this.heigt);
+  };
+};
+
+var rect3 = new Rectangle(12, 34);
+rect3.draw();
