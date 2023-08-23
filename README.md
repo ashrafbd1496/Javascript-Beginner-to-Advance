@@ -126,23 +126,25 @@ var isPositive = function(x) { return x >= 0; };
 > Prototype হইলো অবজেক্ট এর parent, তার যতগুলো অবজেক্ট তৈরি করা হবে, সবাই এই prototype এর প্রপার্টি পাবে। স্বভাব চরিত্র parent এর মত হবে আর কি।
 > এখন যদি এমন হয় ধরেন একটা অবজেক্ট এ একটা ফাংশন ৫০০ বার ডাকা লাগছে, কিন্তু ফাংশনের কোন পরিবর্তন দরকার হয়নি, তো আমার ৫০০ বার কল করা টা বোকামি, শুধু শুধু রিসোর্সেস নষ্ট। তার চাইতে prototype এর কাছে ফাংশন টা রেখে আসতে হবে। যেহেতু সবগুলোর prototype একই, তো এই ফাংশন এক ডাকে পাওয়া যাবে।
 
-> Functons are special type of object in javascript which is executable.
+### this:
 
-> What is this?
-In JavaScript, the this keyword refers to an object.
+    Functons are special type of object in javascript which is executable.
 
-Which object depends on how this is being invoked (used or called).
+    What is this?
+    In JavaScript, the this keyword refers to an object.
 
-The this keyword refers to different objects depending on how it is used:
+    Which object depends on how this is being invoked (used or called).
 
-In an object method, this refers to the object.
-Alone, this refers to the global object.
-In a function, this refers to the global object.
-In a function, in strict mode, this is undefined.
-In an event, this refers to the element that received the event.
-Methods like call(), apply(), and bind() can refer this to any object.
+    The this keyword refers to different objects depending on how it is used:
 
-> 
+    In an object method, this refers to the object.
+    Alone, this refers to the global object.
+    In a function, this refers to the global object.
+    In a function, in strict mode, this is undefined.
+    In an event, this refers to the element that received the event.
+    Methods like call(), apply(), and bind() can refer this to any object.
+
+>
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
