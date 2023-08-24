@@ -144,6 +144,8 @@ var isPositive = function(x) { return x >= 0; };
     In an event, this refers to the element that received the event.
     Methods like call(), apply(), and bind() can refer this to any object.
 
+> The call() and apply() methods are almost the same, but they have a slight difference. The call() method takes the arguments as individual parameters, while the apply() method takes the arguments as an array.
+
 >
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
