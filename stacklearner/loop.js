@@ -48,7 +48,7 @@ console.log("Result = " + sum);
 
  */
 
-//summation of even numbers
+//summation of even numbers 1 to 10
 var mysum = 0;
 for (var i = 1; i <= 10; i++) {
   if (i % 2 === 0) {
@@ -59,6 +59,6 @@ for (var i = 1; i <= 10; i++) {
 //summation of even numbers another way
 let sum = 0;
 
-for (let i = 2; i <= 100; i += 2) {
+for (let i = 2; i <= 10; i += 2) {
   console.log((sum += i));
 }
