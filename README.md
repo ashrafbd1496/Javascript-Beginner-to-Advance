@@ -146,7 +146,11 @@ var isPositive = function(x) { return x >= 0; };
 
 > The call() and apply() methods are almost the same, but they have a slight difference. The call() method takes the arguments as individual parameters, while the apply() method takes the arguments as an array.
 
->
+> is the process of hiding the implementation details of an object and only exposing the essential features to the user.
+
+> Ternary Operator - condition ? ture side : false side
+> logical And shortform- isOk && console.log('Everything is OK')
+> logical OR shortform- var fullName = name || "HM Nayem";
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 

@@ -1,4 +1,4 @@
-//abstruction is the process of hiding the implementation details of an object and only exposing the essential features to the user.
+// private property
 
 var Rectangle = function (width, height) {
   //var name = 'Ashraf';
@@ -15,6 +15,10 @@ var Rectangle = function (width, height) {
     console.log("My height is " + this.heigt);
   }.bind(this);
 
+  //   this.getPosition = function () {
+  //     return postion;
+  //   };
+
   this.draw = function () {
     console.log("I am a rectangle");
     printProperties();
@@ -25,3 +29,4 @@ var Rectangle = function (width, height) {
 var rect1 = new Rectangle(12, 34);
 //console.log(rect1.name);
 rect1.draw();
+//console.log(rect1.getPosition());
