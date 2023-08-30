@@ -1,4 +1,4 @@
-//draw triangle using number, here i draw line and numbers draw using j
+//draw triangle using number, here i draw line and numbers draw using j(episode number 32). we have used a string variable to store the sequence of number
 /**
  * var n = 5;
 for (var i = 1; i <= n; i++) {
