@@ -1,4 +1,5 @@
-# Sumit Saha Javascript Tutorial Practice
+# Javascript Beginner to Advance course 
+    Stack Learner, Sumit Shaha, W3Schools
 
 ### To run js program in vs code terminal we can use - command
 
