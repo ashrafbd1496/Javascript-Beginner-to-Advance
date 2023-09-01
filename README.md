@@ -153,6 +153,22 @@ var isPositive = function(x) { return x >= 0; };
 > logical And shortform- isOk && console.log('Everything is OK')
 > logical OR shortform- var fullName = name || "HM Nayem";
 
+### Array
+    Insert 10 and 34 to index 2 without removing any data
+    var arr = [1,2,3,4,5,6]
+    arr.splice(2, 0, 10, 34)
+    console.log(arr)
+
+    //will remove 1 data ex  3rd no data
+    arr.splice(3, 1); //here 3 is position and 1 is number of data
+    console.log(arr);
+
+    //remove will remove index 2 data and will insert there 21
+    var newArr = [4, 5, 8, 10, 54, 20];
+    newArr.splice(2, 1, 21);
+    console.log(newArr);
+
+
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
