@@ -168,6 +168,8 @@ var isPositive = function(x) { return x >= 0; };
     newArr.splice(2, 1, 21);
     console.log(newArr);
 
+    String + Array = object
+
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
