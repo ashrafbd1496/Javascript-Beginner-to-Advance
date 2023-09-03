@@ -170,6 +170,10 @@ var isPositive = function(x) { return x >= 0; };
 
     String + Array = object
 
+    delete obj.x to delete a property from object
+
+    compare two objet console.log(JSON.stringify(obj1) === JSON.stringify(obj2));
+
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
