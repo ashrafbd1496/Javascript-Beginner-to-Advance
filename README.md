@@ -174,6 +174,18 @@ var isPositive = function(x) { return x >= 0; };
 
     compare two objet console.log(JSON.stringify(obj1) === JSON.stringify(obj2));
 
+### Functions
+    Every functions need to return something either it will return undefined
+    like console.log('hello')// output hello and undefined becasue console.log()
+    function did not return anything.
+
+    After using return function will end there, will not execute anything more
+
+    a. Global variable is accessible from anywhere
+    b. Parent function has no access of child function
+    c. Child function has access of parent function variable
+
+    
 
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
