@@ -187,6 +187,8 @@ var isPositive = function(x) { return x >= 0; };
 
     
 
+[জাভাস্ক্রিপ্ট ডেভেলপারদের জন্য 40টি প্রয়োজনীয় ইন্টারভিউ প্রশ্ন](https://hashdork.com/bn/interview-questions-for-javascript-developers/)
+
 [Javascript Built-in Functions](https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
