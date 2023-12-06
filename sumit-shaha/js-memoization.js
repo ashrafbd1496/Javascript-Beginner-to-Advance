@@ -40,7 +40,7 @@ function memo(func) {
   let cache = {};
 
   return function (...x) {
-    console.log(cache)//{ '10': 20 }
+    console.log(cache); //{ '10': 20 }
 
     const key = JSON.stringify(x);
     console.log(key);

@@ -185,6 +185,12 @@ var isPositive = function(x) { return x >= 0; };
     b. Parent function has no access of child function
     c. Child function has access of parent function variable
 
+    forEach() function modify original array and return array
+
+    map() traverse an array and  make a copy of array finally return a new array
+
+
+
     
 
 [জাভাস্ক্রিপ্ট ডেভেলপারদের জন্য 40টি প্রয়োজনীয় ইন্টারভিউ প্রশ্ন](https://hashdork.com/bn/interview-questions-for-javascript-developers/)
