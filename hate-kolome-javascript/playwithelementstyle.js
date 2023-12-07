@@ -16,3 +16,9 @@ jQuery(document).ready(function ($) {
 
   console.log(newDiv);
 });
+// To make one element a child of another element at the end
+
+box1 = document.getElementById("box1");
+box2 = document.getElementById("box2");
+
+box1.appendChild(box2);
