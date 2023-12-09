@@ -189,7 +189,24 @@ var isPositive = function(x) { return x >= 0; };
 
     map() traverse an array and  make a copy of array finally return a new array
 
-
+### JS DOM
+	HTML dom event attribtue use korar khetre function ta global scope a likhte hobe, nahole kaj korbe na
+	
+	shorthand version of document ready
+	<script>
+	 $(function(){
+	 //code goes here
+	 });
+	</script>
+	
+	Modern style using async/await
+	asyc funciton documentReady(){
+	await window.load;
+	 //code goes here
+	 }
+	 documentReady();
+	
+	
 
     
 
