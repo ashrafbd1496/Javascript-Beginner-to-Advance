@@ -192,7 +192,7 @@ var isPositive = function(x) { return x >= 0; };
 ### JS DOM
 	HTML dom event attribtue use korar khetre function ta global scope a likhte hobe, nahole kaj korbe na
 	
-	shorthand version of document ready
+>	shorthand version of document ready
 	<script>
 	 $(function(){
 	 //code goes here
@@ -205,6 +205,7 @@ var isPositive = function(x) { return x >= 0; };
 	 //code goes here
 	 }
 	 documentReady();
+> 
 	
 	
 
