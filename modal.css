@@ -1,0 +1,196 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* custom box shadow */
+  --shadow-1: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --shadow-2: 0 0.5 1rem rgba(0, 0, 0, 0.15);
+  --shadow-3: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+
+  --modal-padding: 15px 20px;
+  --m-border: 1px solid #e9e9e9;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.banner {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/m-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  width: 500px;
+  height: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-content h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.banner-content p {
+  font-size: 20px;
+  font-weight: 200;
+}
+.banner .banner-content a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #000;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-1);
+}
+
+/* modal css */
+.asrf-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-200px);
+  transition: all 0.5s ease-in-out;
+
+  opacity: 0;
+  pointer-events: none;
+}
+.asrf-modal.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0px);
+}
+.asrf-modal .modal-content {
+  width: 500px;
+  background-color: #fff;
+  color: #000;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: var(--shadow-2);
+}
+.asrf-modal .modal-content .modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--modal-padding);
+  border-bottom: 1px solid #e9e9e9;
+}
+.asrf-modal .modal-content .modal-header .close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+.asrf-modal .modal-content .modal-body {
+  padding: var(--modal-padding);
+  border-bottom: var(--m-border);
+}
+.asrf-modal .modal-content .modal-footer {
+  padding: var(--modal-padding);
+  border: var(--m-border);
+}
+
+/* custom alert */
+.asrf-alert {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0px);
+  transition: all 0.5s ease-in-out;
+
+}
+.asrf-alert .alert-content {
+  width: 545px;
+  background-color: #fff;
+  color: #000;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: var(--shadow-2);
+}
+.asrf-alert .alert-content .alert-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--modal-padding);
+  border-bottom: 1px solid #e9e9e9;
+}
+.asrf-alert .alert-content .alert-header .alert-close {
+  background-color: #ddd;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.asrf-alert .alert-content .alert-body {
+  padding: var(--modal-padding);
+  border-bottom: var(--m-border);
+}
+.asrf-alert .alert-content .alert-body .alert-buttons {
+  text-align: right;
+  margin-top: 20px;
+}
+.asrf-alert .alert-content .alert-body .alert-buttons a {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.asrf-alert .alert-content .alert-body .alert-buttons a:nth-child(1) {
+ color:#1e6ed8;
+}
+.asrf-alert .alert-content .alert-body .alert-buttons a:nth-child(2) {
+  background-color: #1e6ed8;
+  color: #fff;
+  
+ }
+.asrf-alert .alert-content .alert-footer {
+  padding: var(--modal-padding);
+  border: var(--m-border);
+}
