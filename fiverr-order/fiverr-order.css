@@ -1,0 +1,31 @@
+body {
+  background-color: #f0f0f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fiverr-wrapper {
+  width: 500px;
+  margin: 100px auto;
+}
+.fiverr-wrapper .card {
+}
+@media (max-width: 768px) {
+  .fiverr-wrapper {
+    width: 100%; /* 100% width on smaller screens */
+  }
+}
+.counter {
+  text-align: center;
+  font-size: 70px;
+  color: #157347;
+  font-weight: 700;
+}
+.counter span {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+  vertical-align: middle;
+}
